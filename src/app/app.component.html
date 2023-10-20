@@ -350,7 +350,7 @@
 
   </div>
 
-  <!-- Resources -->
+  <!-- Kata -->
   <h2>Vickrey Auction - Coding Kata</h2>
 
   <form [formGroup]="auctionForm" (ngSubmit)="onSubmit()" class="form">
@@ -373,7 +373,6 @@
     </mat-form-field>
   </div>
     <button class="button" mat-raised-button color="primary" type="submit">Submit</button>
-    <!-- <button class="button" type="submit">Purchase</button> -->
   </form>
 
   <div *ngFor="let bidder of this.bidders">
